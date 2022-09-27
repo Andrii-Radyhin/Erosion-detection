@@ -85,6 +85,7 @@ If decided to use .py files directory tree must contain already cropped data fro
 First of all as was showed in EDA, it's needed to get more data (Satellite images), 304 images is really not enought, even with albumentations.
 Difference between smaller Unet and Unet with EfficientNetB0 makes me think that it might be better to use Unet with EfficientNetB3 or maybe even B6.
 In fact, it makes sense to cluster by the ratio mask pixels / non-mask pixels to get a balanced dataset.
+As usual, there is a space for changing learning rate, batch size, steps per epoch or loss fucntion.
 
 Prediction in soil erosion detection depends on factors like the soil type, topography, or climate specifics.
 Regular satellite imagery updates provide actual information on the crops. So, with historical data for several years, you can create productivity maps that are generated with cloudless imagery analytics for the selected period.
