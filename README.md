@@ -15,7 +15,7 @@ Next, we must predict that cropped mask might contain empty masks, EDA confirms 
 All 256: 1764. ---> Empty: 1500
 All 512:  441. ---> Empty 306
 ```
-As there is not really balanced dataset, let's extract images with non-empty masks using either randomizer or just first 40 images. 40 images because it's 20% of images with non-empty masks. So we have 264 + 40 = 304 (for (256,256) crop) images.
+As there is not really balanced dataset, let's extract images with non-empty masks using either randomizer or just first 40 images. 40 images because it's 20% of images with non-empty masks. So we have 264 + 40 = 304 (for (256,256) cropping) images.
 
 **But there is still one question not answered: what cropping is better?**
 
