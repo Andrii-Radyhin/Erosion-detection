@@ -80,3 +80,14 @@ If decided to use .py files directory tree must contain already cropped data fro
 </pre>
 
 **Cropped images must be obtained from EDA.ipynb**
+
+## Solution report
+First of all as was showed in EDA, it's needed to get more data (Satellite images), 304 images is really not enought, even with albumentations.
+Difference between smaller Unet and Unet with EfficientNetB0 makes me think that it might be better to use Unet with EfficientNetB3 or maybe even B6.
+In fact, it makes sense to cluster by the ratio mask pixels / non-mask pixels to get a balanced dataset.
+
+Prediction in soil erosion detection depends on factors like the soil type, topography, or climate specifics.
+Regular satellite imagery updates provide actual information on the crops. So, with historical data for several years, you can create productivity maps that are generated with cloudless imagery analytics for the selected period.
+
+If we talk not about predictions, would be useful to add a zoning feature: helps understand the required amounts of mineral and organic fertilizers for different areas depending on their individual needs. By using this feature, farmers can divide their fields into several zones based on vegetation indices maps. Each zone on the map shows certain vegetation intensity, assisting in fertilizer distribution for each zone.
+
