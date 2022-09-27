@@ -3,7 +3,7 @@ Abstract: this repo includes a pipeline using tf.keras for training Unet + Effic
 
 ## EDA
 Important to notice that we have dataset in .jp2 format (Satellite image), EDA.ipynb contains code using rasterio based on 
- **Link to the article:** [tap here](https://medium.datadriveninvestor.com/preparing-aerial-imagery-for-crop-classification-ce05d3601c68).
+ **Link** [Article](https://medium.datadriveninvestor.com/preparing-aerial-imagery-for-crop-classification-ce05d3601c68).
  
  
 https://drive.google.com/drive/folders/1_T-R-FvMaNDeawhHGtUZ6Dc8KF4ERNrn?usp=sharing
