@@ -32,5 +32,11 @@ Seems like it's better (512,512) cropping, from another hand it's only 141 non-e
 
 Now we have 304 images for training, it's quite small number of images, as a solution i suggest to use albumentations to create artificial images, it will be done in training file.
 
- 
+## Results
+I tried custom Unet with 2 millon parameters and it works poorly. So i decided to try something bigger after some attempts decided to stop on Unet with EfficientNetB0:
+
+| Architecture | Dice_coef | Input & Mask Resolution | Epochs | Steps_per_epoch | Loss function | Optimizer | Learning scheduler |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Unet&EfficientNetB0 | 0.0799 | (256x256) | 50 | 250 | FocalLoss | Adam (lr=1e-3) | ReduceLROnPlateau(factor=0.5, patience=3) |
+
 
