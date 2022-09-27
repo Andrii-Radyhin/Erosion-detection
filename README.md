@@ -1,7 +1,7 @@
 # Satellite-Segmentation
 Abstract: this repo includes a pipeline using tf.keras for training Unet + EfficientNetb0 for the problem of erosion detection. Moreover, weights and trained model are provided. I will use EDA.ipynb as main file in EDA below, all images from output EDA.ipynb.
 
-***Data***: [tap here](https://drive.google.com/drive/folders/1_T-R-FvMaNDeawhHGtUZ6Dc8KF4ERNrn?usp=sharing)
+**Data**: [tap here](https://drive.google.com/drive/folders/1_T-R-FvMaNDeawhHGtUZ6Dc8KF4ERNrn?usp=sharing)
 
 ## EDA
 Important to notice that we have dataset in .jp2 format (Satellite image), EDA.ipynb contains code using [rasterio](https://rasterio.readthedocs.io/en/latest/)
@@ -17,7 +17,7 @@ All 512:  441. ---> Empty 306
 ```
 As there is not really balanced dataset, let's extract images with non-empty masks using either randomizer or just first 40 images. 40 images because it's 20% of images with non-empty masks. So we have 264 + 40 = 304 (for (256,256) crop) images.
 
-But there is still one question not answered: what crop is better?
+**But there is still one question not answered: what crop is better?**
 
 By this reason we will use pixel ratio (mask pixels/ all mask pixels).
 Also graph below shows pixel ratio with all images, received during cropping.
