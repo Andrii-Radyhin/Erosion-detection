@@ -88,7 +88,7 @@ In fact, it makes sense to cluster by the ratio mask pixels / non-mask pixels to
 As usual, there is a space for changing learning rate, batch size, steps per epoch or loss fucntion.
 
 Prediction in soil erosion detection depends on factors like the soil type, topography, or climate specifics.
-Regular satellite imagery updates provide actual information on the crops. So, with historical data for several years, you can create productivity maps that are generated with cloudless imagery analytics for the selected period.
+Regular satellite imagery updates provide actual information on the crops. So, with historical data for several years, you can create productivity observations that are generated with cloudless imagery analytics for the selected period.
 
 If we talk not about predictions, would be useful to add a zoning feature: helps understand the required amounts of mineral and organic fertilizers for different areas depending on their individual needs. By using this feature, farmers can divide their fields into several zones based on vegetation indices maps. Each zone on the map shows certain vegetation intensity, assisting in fertilizer distribution for each zone.
 
