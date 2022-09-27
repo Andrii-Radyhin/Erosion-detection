@@ -54,7 +54,7 @@ Example 3:
 ## Files description
 EDA.ipynb main file for EDA. All images from there.
 
-Task_4.ipynb is a train file, need only data from EDA.ipynb.
+Task_4.ipynb is a train file, need only data from EDA.ipynb. **Strongly recommend to use this notebook to train model**
 
 There is also .py files in Py_files
 
