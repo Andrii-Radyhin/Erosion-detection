@@ -39,7 +39,15 @@ I tried custom Unet with 2 millon parameters and it works poorly. So i decided t
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | Unet&EfficientNetB0 | 0.0799 | (256x256) | 50 | 250 | FocalLoss | Adam (lr=1e-3) | ReduceLROnPlateau(factor=0.5, patience=3) |
 
-Examples:
+Example 1:
 
-![alt text](images/ratio_shape.PNG)
+![alt text](images/Example_1.PNG)
+
+Example 2:
+
+![alt text](images/Example_2.PNG)
+
+Example 3:
+
+![alt text](images/Example_3.PNG)
 
