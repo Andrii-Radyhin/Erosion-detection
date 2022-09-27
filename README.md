@@ -51,3 +51,15 @@ Example 3:
 
 ![alt text](images/Example_3.PNG)
 
+## Files description
+EDA.ipynb main file for EDA. All images from there.
+
+Task_4.ipynb is a train file, need only data from EDA.ipynb.
+
+There is also .py files in Py_files
+
+train.py is used to train model
+
+test.py load model and show results
+
+utils.py contains custom losses, metrics and data generator.
