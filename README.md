@@ -30,7 +30,7 @@ Seems like it's better (512,512) cropping, from another hand it's only 141 non-e
 
 ![alt text](images/Masks_problem.PNG)
 
-Now we have 304 images for trainig, it's quite small number of images, as a solution i suggest to use albumentations to create artificial images, it will be done in training file.
+Now we have 304 images for training, it's quite small number of images, as a solution i suggest to use albumentations to create artificial images, it will be done in training file.
 
  
 
