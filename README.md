@@ -35,9 +35,9 @@ Now we have 304 images for training, it's quite small number of images, as a sol
 ## Results
 I tried custom Unet with 2 millon parameters and it works poorly. So i decided to try something bigger after some attempts decided to stop on Unet with EfficientNetB0:
 
-| Architecture | Dice_coef | Input & Mask Resolution | Epochs | Steps_per_epoch | Loss function | Optimizer | Learning scheduler |
+| Architecture | Dice_coef | Input & Mask Resolution | Epochs | Steps_per_epoch | Loss function | Optimizer | Learning scheduler | batch size |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Unet&EfficientNetB0 | 0.0799 | (256x256) | 50 | 250 | FocalLoss | Adam (lr=1e-3) | ReduceLROnPlateau(factor=0.5, patience=3) |
+| Unet&EfficientNetB0 | 0.0799 | (256x256) | 50 | 250 | FocalLoss | Adam (lr=1e-3) | ReduceLROnPlateau(factor=0.5, patience=3) | 16 |
 
 Example 1:
 
