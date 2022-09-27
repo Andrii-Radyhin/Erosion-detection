@@ -63,3 +63,20 @@ train.py is used to train model
 test.py load model and show results
 
 utils.py contains custom losses, metrics and data generator.
+
+Data link at the bottom of readme contains raw Satellite data and model.h5. Use EDA.ipynb to exctract images.
+
+model.h5 is a model for tests, due to custom loss and metrics use test.py or Task_4.ipynb to load it.
+
+## Directory tree
+If decided to use .py files directory tree must contain already cropped data from EDA.ipynb
+<pre>
+ ├── cropped_img (cropped_img_256)
+ ├── cropped_mask (cropped_mask_256)
+ ├── utils.py
+ ├── train.py 
+ ├── test.py  
+ ├── model.h5
+</pre>
+
+**Cropped images must be obtained from EDA.ipynb**
