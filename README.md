@@ -22,7 +22,7 @@ But there is still one question not answered: what crop is better?
 By this reason we will use pixel ratio (mask pixels/ all mask pixels).
 Also graph below shows pixel ratio with all images, received during cropping.
 
-![alt text](images/processed__database.PNG)
+![alt text](images/ratio_shape.PNG)
 
 Seems like it's better (512,512) cropping, from another hand it's only 141 non-empty masks, therefore was decided to use (256,256) one.
 
