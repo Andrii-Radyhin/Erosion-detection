@@ -1,4 +1,4 @@
-# Satellite-Segmentation
+# Erosion-detection 
 Abstract: this repo includes a pipeline using tf.keras for training Unet + EfficientNetb0 for the problem of erosion detection. Moreover, weights and trained model are provided. I will use EDA.ipynb as main file in EDA below, all images from output EDA.ipynb.
 
 **Data**: [tap here](https://drive.google.com/drive/folders/1_T-R-FvMaNDeawhHGtUZ6Dc8KF4ERNrn?usp=sharing)
